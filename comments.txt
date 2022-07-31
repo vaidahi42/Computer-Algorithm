@@ -38,3 +38,11 @@ So, levels will be n/(2^k) = 1
 T(n) = n+ n+n+....log n terms 
 So, O(nlogn) will be the best case time complexity.
                                    
+                                   
+                                   
+                              
+* The Complexity of this Algorithm is O(n^2), Because in my code i have taken last element of array as Pivot element, by this the algorithm has
+to compare more time than regular.
+
+if we want to reduce the complexity of this algorithm, then we have to set the pivot element as middle element which lead to have less 
+comparisons as compared to pivot as last element
